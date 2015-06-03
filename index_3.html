@@ -58,8 +58,8 @@
       */
 
           var myChart = new dimple.chart(svg, data);
-          var x = myChart.addCategoryAxis("x", "teamID"); 
-          var y = myChart.addMeasureAxis("y", "ATT");
+          var x = myChart.addCategoryAxis("x", "TeamID"); 
+          var y = myChart.addMeasureAxis("y", "Cumulative Attendance");
           myChart.addSeries("Playoffs", dimple.plot.bar);
           var myLegend = myChart.addLegend(1050, 70, 150, 50, "right");
           myChart.draw();
