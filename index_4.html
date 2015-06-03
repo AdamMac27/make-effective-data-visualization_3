@@ -76,10 +76,10 @@
           var myChart = new dimple.chart(svg, data);
           
           /* create x-axis */
-          var x = myChart.addCategoryAxis("x", "franchID");
+          var x = myChart.addCategoryAxis("x", "TeamID");
 
           /* create y-axis */
-          var y = myChart.addMeasureAxis("y", "ATT");
+          var y = myChart.addMeasureAxis("y", "Cumulative Attendance");
 
           /* add series to chart */
           myChart.addSeries("Playoffs", dimple.plot.bar);
